@@ -6,8 +6,12 @@
 // invertirCadena("anita lava la tina") // debe retornar "anit al aval atina"
 
 function invertirCadena(cadena) {
-    // Escribe tu código aquí
+    const invertido = [...cadena].reverse().join("");
+
+    return cadena;
 }
+
+ console.log(invertirCadena("Hola Mundo"));
 
 // Exporta la función para que pueda ser utilizada en las pruebas
 module.exports = {
